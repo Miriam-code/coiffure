@@ -1,0 +1,635 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #000000;
+    top: 0;
+    background: white;
+    position: sticky;
+}
+nav h1{
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-right: 500px;
+    
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+
+   
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(images/imagesss.jpg);
+    background-size: cover;
+    color: #000000;
+    padding: 20px;
+    text-decoration-line: none;
+
+
+   
+}
+.rendezvous {
+    margin-top: 100px;
+    margin-right: 400px;
+    margin-left: 400px;
+    background: url(images/imagesss.jpg);
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+}
+header button{
+    padding: 10px 20px;
+    background-color: #000000;
+    color:white;
+    border:none;
+    margin-bottom: 30px;
+    outline:none;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.main .content .card .femme{
+   flex: 0 0 20S%;
+   padding: 10px;
+   background-color:black;
+   color:#fff;
+}
+.main .content .card .Femme img{
+    height:500px;
+    width: 400px;
+   
+}
+
+.Femme, .Homme, .produits {
+    margin: 10px;
+}
+
+.main .content .card .Homme{
+   flex: 0 0 20S%;
+   padding: 10px;
+   background-color:black;
+   color:#fff;
+}
+.main .content .card .Homme img{
+    height:500px;
+    width: 400px;
+}
+
+.main .content .card .produits{
+   flex: 0 0 20S%;
+   padding: 10px;
+   background-color:black;
+   color:#fff;
+}
+.main .content .card .produits img{
+    height:500px;
+    width: 400px;
+
+}
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 30px 100px;
+}
+footer h1{
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+footer #contact{
+    color: rgb(181, 181, 181);
+}
+footer .maps
+{
+    display: flex;
+}
+
+
+
+.coifffemme 
+{
+    display: inline-block;
+    padding: 30px 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.cheveux
+{
+    display: inline-block;
+}
+.coiffhomme
+{
+    margin-top: 100px;
+    display: inline-block;
+    padding: 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.cheveuxh
+{
+
+    margin-top: 100px;
+    display: inline-block;
+}
+.shampoo
+{
+    display: inline-block;
+    margin: 30px;
+    flex: 0 0 20S%;
+   padding: 5px;
+   background-color:black;
+   color:#fff;
+   height:300px;
+    width: 300px;
+    
+}
+.shampoo2
+{
+    display: inline-block;
+    margin: 20px;
+    flex: 0 0 20S%;
+   padding: 5px;
+   background-color:black;
+   color:#fff;
+   height:300px;
+    width: 300px;
+    
+}
+.shampoo3
+{
+    display: inline-block;
+    margin: 20px;
+    flex: 0 0 20S%;
+   padding: 5px;
+   background-color:black;
+   color:#fff;
+   height:300px;
+    width: 300px;
+    
+    
+}
+.shampoo4
+{
+    display: inline-block;
+    margin: 20px;
+    flex: 0 0 20S%;
+   padding: 5px;
+   background-color:black;
+   color:#fff;
+   height:300px;
+    width: 300px;
+    
+}
+.shampoo5
+{
+    display: inline-block;
+    margin: 30px;
+    flex: 0 0 20S%;
+   padding: 5px;
+   background-color:black;
+   color:#fff;
+   height:300px;
+    width: 300px;
+    
+}
+.shampoo6
+{
+    display: inline-block;
+    margin: 20px;
+    flex: 0 0 20S%;
+   padding: 5px;
+   background-color:black;
+   color:#fff;
+   height:300px;
+    width: 300px;
+    
+}
+.shampoo7
+{
+    display: inline-block;
+    margin: 20px;
+    flex: 0 0 20S%;
+   padding: 5px;
+   background-color:black;
+   color:#fff;
+   height:300px;
+    width: 300px;
+    
+}
+.shampoo8
+{
+    display: inline-block;
+    margin: 20px;
+    flex: 0 0 20S%;
+   padding: 5px;
+   background-color:black;
+   color:#fff;
+   height:300px;
+    width: 300px;
+    
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+/*organigramme*/
+
+.contente *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}
+
+/* Generic styling */
+
+
+
+.contente{
+    width: 100%;
+    max-width: 1142px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a:focus{
+    outline: 2px dashed #f7f7f7;
+}
+
+@media screen and (max-width: 767px){
+    .content{
+        padding: 0 20px;
+    }   
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;       
+}
+
+ul a{
+    display: block;
+    background: #ccc;
+    border: 4px solid black;
+    text-align: center;
+    overflow: hidden;
+    font-size: .7em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    height: 70px;
+    margin-bottom: -26px;
+    box-shadow: 4px 4px 9px -4px rgba(0,0,0,0.4);
+    -webkit-transition: all linear .1s;
+    -moz-transition: all linear .1s;
+    transition: all linear .1s;
+}
+
+@media print {
+    ul a{
+        border: 4px solid #000;
+    }
+}
+
+@media screen and (max-width: 767px){
+    ul a{
+        font-size: 1em;
+    }
+}
+
+
+ul a span{
+    top: 50%;
+    margin-top: -0.7em;
+    display: block;
+}
+
+
+ 
+
+.administration > li > a{
+    margin-bottom: 25px;
+}
+
+.director > li > a{
+    width: 50%;
+    margin: 0 auto 0px auto;
+}
+
+.subdirector:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 130px;
+    background: red;
+    border-left: 4px  solid black;
+    left: 45.45%;
+    position: relative;
+}
+
+@media print {
+    .subdirector:after{
+        border-left: 4px solid #000;
+    }
+}
+
+.subdirector,
+.departments{
+    position: absolute;
+    width: 100%;
+}
+
+.subdirector > li:first-child,
+.departments > li:first-child{  
+    width: 18.59894921190893%;
+    height: 64px;
+    margin: 0 auto 92px auto;       
+    padding-top: 25px;
+    border-bottom: 4px solid black;
+    z-index: 1; 
+}
+
+@media print {
+    .subdirector > li:first-child,
+    .departments > li:first-child{
+        border-bottom: 4px solid #000;
+    }
+}
+
+.subdirector > li:first-child{
+    float: right;
+    right: 27.2%;
+    border-left: 4px solid black;
+}
+
+@media print {
+    .subdirector > li:first-child{
+        border-left: 4px solid black;
+    }   
+}
+
+.departments > li:first-child{  
+    float: left;
+    left: 27.2%;
+    border-right: 4px solid black;  
+}
+
+@media print {
+    .departments > li:first-child{
+        border-right: 4px solid black;  
+    }
+}
+
+.subdirector > li:first-child a,
+.departments > li:first-child a{
+    width: 100%;
+}
+
+.subdirector > li:first-child a{    
+    left: 25px;
+}
+
+@media screen and (max-width: 767px){
+    .subdirector > li:first-child,
+    .departments > li:first-child{
+        width: 40%; 
+    }
+
+    .subdirector > li:first-child{
+        right: 10%;
+        margin-right: 2px;
+    }
+
+    .subdirector:after{
+        left: 49.8%;
+    }
+
+    .departments > li:first-child{
+        left: 10%;
+        margin-left: 2px;
+    }
+}
+
+
+.departments > li:first-child a{
+    right: 25px;
+}
+
+.department:first-child,
+.departments li:nth-child(2){
+    margin-left: 0;
+    clear: left;    
+}
+
+.departments:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 81.1%;
+    height: 22px;   
+    border-top: 4px solid black;
+    border-right: 4px  solid black;
+    border-left: 4px  solid black;
+    margin: 0 auto;
+    top: 130px;
+    left: 9.1%
+}
+
+@media print {
+    .departments:after{
+        border-top: 4px solid #000;
+        border-right: 4px solid #000;
+        border-left: 4px solid #000;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .departments:after{
+        border-right: none;
+        left: 0;
+        width: 49.8%;
+    }  
+}
+
+@media screen and (min-width: 768px){
+    .department:first-child:before,
+   .department:last-child:before{
+    border:none;
+  }
+}
+
+.department:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 22px;
+    border-left: 4px solid black;
+    z-index: 1;
+    top: -22px;
+    left: 50%;
+    margin-left: -4px;
+}
+
+@media print {
+    .department:before{
+        border-left: 4px solid black;
+    }
+}
+
+.department{
+    border-left: 4px solid #black;
+    width: 18.59894921190893%;
+    float: left;
+    margin-left: 1.751313485113835%;
+    margin-bottom: 60px;
+}
+
+@media print {
+    .department{
+        border-left: 4px solid #000;
+    }
+}
+
+.lt-ie8 .department{
+    width: 18.25%;
+}
+
+@media screen and (max-width: 767px){
+    .department{
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .department:before{
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 60px;
+        border-left: 4px solid black;
+        z-index: 1;
+        top: -60px;
+        left: 0%;
+        margin-left: -4px;
+    }
+
+    .department:nth-child(2):before{
+        display: none;
+    }
+}
+
+.department > a{
+    margin: 0 0 -26px -4px;
+    z-index: 1;
+}
+
+.department > a:hover{  
+    height: 80px;
+}
+
+.department > ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.department li{ 
+    padding-left: 25px;
+    border-bottom: 4px solid #fff;
+    height: 80px;   
+}
+
+@media print {
+    .department li{
+        border-bottom: 4px solid #000;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px)
+{
+    nav .onglets a
+    {
+    float: none;
+    margin: 100%;
+}
+}

@@ -1,0 +1,98 @@
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prendre RDV</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="site.css">
+
+</head>
+<body>
+    <nav>
+        <a href="site.html"style="color: white;"><h1>Imen Beauty</h1></a>
+        <div class="onglets">
+            <a href="#">Home</a>
+            <a href="#produits">Catégorie</a>
+            <a href="#contact">Contact</a>
+<a href="organigrame.html">organigramme</a>
+
+        </div>
+    </nav>
+
+    <header>
+        <h1>Imen Beauty,</h1>
+        <h4>Act beautiful.</h4>
+
+</header>
+<div class="rendezvous">
+        <form name="frmInformation personelles"
+               action="resultat.html"
+               enctype=""
+               method="POST|GET">
+
+               <fieldset>
+                    <legend>Rendez-Vous</legend>
+                    <br>
+                    <label for="txtLogin">Email :</label>
+                    <input type="email" name="txtLogin" id="txtLogin" size="15" maxlength="20" placeholder="imenbeauty@gmail.com">
+                    <br>
+                    <label for="txtLogin">Nom/Prenom :</label>
+                    <input type="text" name="txtMdp" id="txtLogin" size="15" maxlength="20" placeholder="Imen Beauty">    
+                    <br>   <br>            
+                    Sexe :                        
+
+               <select name="txtSexe" >
+               <option>homme</option>
+               <option>femme</option>
+               <br><br>
+
+          </select>
+          <br><br>
+
+<form>
+  <div>
+    <label for="appt-time">Veuillez choisir une heure de rendez-vous (heures d'ouverture entre 09:00 et 18:00) : </label>
+    <input id="appt-time" type="time" name="appt-time"
+           min="09:00" max="18:00" required
+           pattern="[0-9]{2}:[0-9]{2}">
+    <span class="validity"></span>
+  </div>
+  <div>
+      <input type="submit" value="Envoyer">
+  </div>
+</form>
+</div>
+</fieldset>
+
+
+
+
+
+
+
+
+
+<footer>
+        <h1>Informations</h1>
+        <div class="services">
+           
+            <div class="service">
+                <h3>Adresse</h3>
+                <p>161 Avenue de Verdun</p>
+            </div>
+
+            <div class="service">
+                <h3>Paiement</h3>
+                <p>CB/espèces </p>
+            </div>
+
+            <div class="service">
+                <h3></h3>
+                <p></p>
+            </div>
+
+        </div>
+<div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2627.6466794913913!2d2.373090915568058!3d48.80772161222729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e673cfcc4c4e65%3A0x1f48d122b6f3c5f!2s161%20Av.%20de%20Verdun%2C%2094200%20Ivry-sur-Seine!5e0!3m2!1sen!2sfr!4v1640117492837!5m2!1sen!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+        <p id="contact">Contact : XX XX XX XX XX | &copy; 2021, Imen Beauty.</p>
+    </footer>
+</body>
+</html>
